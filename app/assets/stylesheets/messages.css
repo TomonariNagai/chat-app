@@ -11,22 +11,51 @@
 .side_bar_header{
   height: 100px;
   padding: 0 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header_name a{
+  color: #fafafa;
+  font-size: 16px;
+  text-decoration: none;
+}
+
+.create_room{
+  font-size: 10px;
+}
+
+.create_room a{
+  border: 1px solid lightblue;
+  color: deepskyblue;
+  padding: 14px;
+  text-decoration: none;
 }
 
 .rooms{
   height: calc(100vh - 100px);
   background-color: #2f3E51;
   padding: 0 20px;
+  overflow: scroll;
 }
 
+.room{
+  padding: 20px 0 40px 0;
+}
+
+.room a{
+  color: white;
+  text-decoration: none;
+}
 .chat{
   width: calc(100% - 300px);
   background-color: #ffffff;
+  height: 100vh;
 }
 
 .chat_header{
   height: 100px;
-  margin-bottom: 46px;
   padding: 0 40px;
 }
 
